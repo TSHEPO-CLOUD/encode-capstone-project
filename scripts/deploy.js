@@ -7,25 +7,18 @@ async function main() {
   const whitelistContract = WHITELIST_CONTRACT_ADDRESS;
   // URL from where we can extract the metadata for a Crypto Dev NFT
   const metadataURL = METADATA_URL;
-  /*
-  DeployContract in ethers.js is an abstraction used to deploy new smart contracts,
-  so cryptoDevsContract here is a factory for instances of our CryptoDevs contract.
-  */
-
- // here we deploy the contract
+  
  const encodeDevsContract = await hre.ethers.deployContract("EncodeDevs", [
    metadataURL,
    whitelistContract
  ]);
 
- // wait for the contract to deploy
  await encodeDevsContract.waitForDeployment();
 
- // print the address of the deployed contract
- console.log("Crypto Devs Contract Address:", encodeDevsContract.target);
+ console.log("Encode Devs Contract Address:", encodeDevsContract.target);
 }
 
-// Call the main function and catch if there is any error
+
 main()
   .then(() => process.exit(0))
   .catch((error) => {
