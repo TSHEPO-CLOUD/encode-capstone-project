@@ -4,7 +4,7 @@ There should only exist 10 Encode Dev NFT's and each one of them should be uniqu
 User's should be able to mint only 1 NFT with one transaction.
 Whitelisted users, should have a 2 min presale period before the actual sale where they are guaranteed 1 NFT per transaction.
 
-Theory
+# Theory
 
     What is a Non-Fungible Token? Fungible means to be the same or interchangeable eg. Eth is fungible. With this in mind, NFTs are unique; each one is different. Every single token has unique characteristics and values. They are not interchangeable eg Unique Art
 
