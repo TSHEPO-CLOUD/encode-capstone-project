@@ -9,6 +9,12 @@ Whitelisted users, should have a 2 min presale period before the actual sale whe
 What is a Non-Fungible Token? Fungible means to be the same or interchangeable eg. Eth is fungible. With this in mind, NFTs are unique; each one is different. Every single token has unique characteristics and values. They are not interchangeable eg Unique Art.
 What is ERC-721? ERC-721 is an open standard that describes how to build Non-Fungible tokens on EVM (Ethereum Virtual Machine) compatible blockchains.
 
+
+# NFT-COLLECTION WEBPAGE
+
+```bash
+    https://encode-capstone-project.vercel.app/
+```
 # USAGE 
 
 Participants can opt to be whitelisted before the public launch by running the following command to obtain thire Address:
