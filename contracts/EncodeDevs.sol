@@ -21,7 +21,7 @@ contract EncodeDevs is ERC721Enumerable, Ownable {
         _;
     }
 
-    constructor (string memory baseURI, address whitelistContract) ERC721("Crypto Devs", "CD") {
+    constructor (string memory baseURI, address whitelistContract) ERC721("Encode Devs", "CD") {
         _baseTokenURI = baseURI;
         whitelist = IWhitelist(whitelistContract);
     }
@@ -30,7 +30,7 @@ contract EncodeDevs is ERC721Enumerable, Ownable {
     function startPresale() public onlyOwner {
         presaleStarted = true;
        
-        presaleEnded = block.timestamp + 2 minutes;
+        presaleEnded = block.timestamp + 1 minutes;
     }
 
    
