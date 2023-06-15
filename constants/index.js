@@ -1,4 +1,4 @@
-const WHITELIST_CONTRACT_ADDRESS = "0x0E752690736F4C93d12e7BCba8C3DeCbc0404B95";
+const WHITELIST_CONTRACT_ADDRESS = "0xaeC43B672E7883f0a87a0e1Dae11F43D1cd8f09d";
 
 const METADATA_URL = "https://encode-capstone-project.vercel.app/api/";
 

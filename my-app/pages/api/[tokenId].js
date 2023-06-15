@@ -3,8 +3,7 @@ export default function handler(req, res) {
     const tokenId = req.query.tokenId;
   
     
-    const image_url =  "https://raw.githubusercontent.com/TSHEPO-CLOUD/encode-capstone-project/main/my-app/public/encodedevs/0.svg";
-    
+    const image_url =  "https://github.com/TSHEPO-CLOUD/encode-capstone-project/tree/main/my-app/public/encodedevs"
     
     res.status(200).json({
       name: "Encode Dev #" + tokenId,
